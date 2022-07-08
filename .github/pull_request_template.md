@@ -17,7 +17,6 @@ Id#`Điền id ở đây`
 - [ ] Có thay đổi nội dung resources
 - [ ] Code đã được test trên máy cá nhân
 - [ ] Code có hình ảnh minh họa
-- [ ] Có thay đổi các trường trong database không
 - [ ] Có cài thêm package hay thư viện mới không
 
 `Insert ảnh chụp hoặc video ở đây`
