@@ -15,7 +15,7 @@ function LoginForm({Login, error}) {
             <h2>Login</h2>
             <div className='form-group'>
                 {/* <label htmlFor='username'>Username:</label> */}
-                <input type='text' name='username' placeholder='Username' id='Username' onChange={e => setDetails({...details, username: e.target.value})} value={details.username}/>
+                <input type='text' name='username' id='username' placeholder='Username' onChange={e => setDetails({...details, username: e.target.value})} value={details.username}/>
             </div>
             <div className='form-group'>
               {/* <label htmlFor='password'>Password:</label> */}
