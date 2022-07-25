@@ -14,13 +14,12 @@ function LoginForm({Login, error}) {
         <div className='form-inner'>
             <h2>Login</h2>
             <div className='form-group'>
-                <label htmlFor='username'>Username:</label>
-                <input
-                  type='text' name='username' id='username' onChange={e => setDetails({...details, username: e.target.value})} value={details.username}/>
+                {/* <label htmlFor='username'>Username:</label> */}
+                <input type='text' name='username' placeholder='Username' id='Username' onChange={e => setDetails({...details, username: e.target.value})} value={details.username}/>
             </div>
             <div className='form-group'>
-              <label htmlFor='password'>Password:</label>
-              <input type='password' name='password' id='password' onChange={e => setDetails({...details, password: e.target.value})} value={details.password}/>
+              {/* <label htmlFor='password'>Password:</label> */}
+              <input type='password' name='password' id='password' placeholder='Password' onChange={e => setDetails({...details, password: e.target.value})} value={details.password}/>
             </div>
             {(error != "") ? (<div className='error'>{error}</div>) : ""}
             <input type= 'submit' value = 'Log In'/>
