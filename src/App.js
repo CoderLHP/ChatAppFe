@@ -17,9 +17,9 @@ function App () {
         console.log("Logged in!");
         setUser({
           username : details.username
-        })
+        });
       } else {
-        console.log("Invalid username or password!");
+        setError("Invalid username or password!");
       }
     }
 
@@ -31,7 +31,7 @@ function App () {
       <div className='App'>
         {(user.username != "") ? (
           <div className='ChatRoom'>
-              <h2>Day la chat Room, <span>{user.username}</span></h2>
+              <h2>Chuyen huong sang Chat Room, <span>{user.username}</span></h2>
               <button onClick={Logout}>Log Out</button>
           </div>
         ) : (
