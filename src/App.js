@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import LoginForm from './components/LoginForm'
+import LoginForm from './components/Login'
 
 function App () {
     const testUser = {
@@ -18,6 +18,7 @@ function App () {
         setUser({
           username : details.username
         });
+        setError("");
       } else {
         setError("Invalid username or password!");
       }
@@ -31,7 +32,7 @@ function App () {
       <div className='App'>
         {(user.username != "") ? (
           <div className='ChatRoom'>
-              <h2>Chuyen huong sang Chat Room, <span>{user.username}</span></h2>
+              <h2>Chuyen huong sang Chat Room, {user.username}</h2>
               <button onClick={Logout}>Log Out</button>
           </div>
         ) : (
