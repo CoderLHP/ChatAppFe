@@ -1,0 +1,8 @@
+{
+    "login": {
+        "login": "Login",
+        "username": "Username",
+        "password": "Password",
+        "wrong-info": "Invalid username or password!"
+    }
+}

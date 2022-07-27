@@ -1,0 +1,8 @@
+{
+    "login": {
+        "login": "Đăng nhập",
+        "username": "Tên đăng nhập",
+        "password": "Mật mã",
+        "wrong-info": "Tên đăng nhập hoặc mật khẩu không hợp lệ!"
+    }
+}
